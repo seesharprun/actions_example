@@ -1,1 +1,3 @@
 on: push
+jobs:
+  first-job:
