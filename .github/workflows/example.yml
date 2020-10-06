@@ -2,6 +2,7 @@ name: Test Node with Workflow
 on: push
 jobs:
   first-job:
+    name: First Job
     runs-on: ubuntu-latest
     container: node:12.18.4
     steps:
